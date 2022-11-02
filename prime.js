@@ -1,12 +1,12 @@
 //check prime
 function prime(number){
-let count=0;
+let flag=0;
 for(let i=1;i<=number;i++){
 if(number%i==0){
-count++;
+flag++;
 }
 }
-if(count==2)
+if(flag==2)
 {
 return true;
 }
